@@ -277,3 +277,20 @@ Electronics / Computer Vision Project
 ### License
 
 This project is intended for educational and portfolio purposes.
+
+---
+
+## Demo
+
+### Object Detection and Target Lock
+
+The system detects objects in real time and identifies the valid target closest to the center of the camera frame.
+
+![Drone Navigator Detection Demo](outputs/detection_result.jpg)
+
+In this example:
+
+- The bicycle is detected with high confidence.
+- The bicycle enters the central target zone.
+- The system marks it as `TARGET LOCKED`.
+- Other detected objects remain in `Scanning` mode.
